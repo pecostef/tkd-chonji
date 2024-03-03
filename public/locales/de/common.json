@@ -1,23 +1,24 @@
 {
   "header": {
     "location": "LOS ANGELES, INC - 4502",
-    "number":"+000 000 0000",
-    "time":"9AM - 10PM",
-    "select-lang":"Select lang",
-    "english":"English",
-    "german":"German",
-    "spanish":"Spanish",
-    "home":"Home",
-    "about-us":"About us",
-    "services":"Services",
-    "trainers":"Trainers",
-    "contact-us":"Contact us de"
+    "number": "+000 000 0000",
+    "time": "9AM - 10PM",
+    "select-lang": "Select lang",
+    "english": "English",
+    "german": "Deutsch",
+    "french": "Francais",
+    "italian": "Italiano",
+    "home": "Home",
+    "about-us": "About us",
+    "services": "Services",
+    "trainers": "Trainers",
+    "contact-us": "Contact us de"
   },
-  "home":{
-    "title":"WELCOME TO chon-ji school",
-    "subtitle":"join over 9,000+ students",
-    "description":"Morbi eleifend tortor vitae sapien laoreet feugiat. Aliquam dictum vulputate sapien eu laoreet. Aliquam purus est, molestie et sagittis sit amet, sagittis in magna.",
-    "subscribe":"Subscribe",
+  "home": {
+    "title": "WELCOME TO chon-ji school",
+    "subtitle": "join over 9,000+ students",
+    "description": "Morbi eleifend tortor vitae sapien laoreet feugiat. Aliquam dictum vulputate sapien eu laoreet. Aliquam purus est, molestie et sagittis sit amet, sagittis in magna.",
+    "subscribe": "Subscribe",
     "info-title-1": "Student Joined",
     "info-title-2": "Best trainers",
     "info-title-3": "Happy Students",
@@ -25,66 +26,66 @@
     "info-value-2": "4K",
     "info-value-3": "8K"
   },
-  "about":{
-    "title":"INTRODUCTION",
-    "subtitle":"Let's know about our fight chon-ji school",
-    "description":"Fight School has specialized in martial arts since 1986 and has one of the most innovative programs in the nation. We teach martial arts because we love it — not because we want to make money on you. Unlike other martial arts schools, we do not require you to sign long term contracts.",
-    "find-out-more":"find out more",
-    "have-any-questions":"have any questions?",
-    "number":"+387 65 737 788"
+  "about": {
+    "title": "INTRODUCTION",
+    "subtitle": "Let's know about our fight chon-ji school",
+    "description": "Fight School has specialized in martial arts since 1986 and has one of the most innovative programs in the nation. We teach martial arts because we love it — not because we want to make money on you. Unlike other martial arts schools, we do not require you to sign long term contracts.",
+    "find-out-more": "find out more",
+    "have-any-questions": "have any questions?",
+    "number": "+387 65 737 788"
   },
-  "service":{
-    "title":"Services",
-    "subtitle":"our best schedule programs",
-    "description":"We teach martial arts because we love it — not because we want to make money on you. Unlike other martial arts schools, we do not require you to sign long term contracts.",
-    "card-1":{
-      "time":"5AM - 6PM",
-      "title":"teen & adult karate",
-      "subtitle":"It is an unfortunate fact that many martial artists suffer from knee pain."
+  "service": {
+    "title": "Services",
+    "subtitle": "our best schedule programs",
+    "description": "We teach martial arts because we love it — not because we want to make money on you. Unlike other martial arts schools, we do not require you to sign long term contracts.",
+    "card-1": {
+      "time": "5AM - 6PM",
+      "title": "teen & adult karate",
+      "subtitle": "It is an unfortunate fact that many martial artists suffer from knee pain."
     },
-    "card-2":{
-      "time":"5AM - 6PM",
-      "title":"teen & adult karate",
-      "subtitle":"It is an unfortunate fact that many martial artists suffer from knee pain."
+    "card-2": {
+      "time": "5AM - 6PM",
+      "title": "teen & adult karate",
+      "subtitle": "It is an unfortunate fact that many martial artists suffer from knee pain."
     },
-    "card-3":{
-      "time":"5AM - 6PM",
-      "title":"teen & adult karate",
-      "subtitle":"It is an unfortunate fact that many martial artists suffer from knee pain."
+    "card-3": {
+      "time": "5AM - 6PM",
+      "title": "teen & adult karate",
+      "subtitle": "It is an unfortunate fact that many martial artists suffer from knee pain."
     }
   },
-  "trainer":{
-    "title":"trainers",
-    "subtitle":"our instructort",
-    "frame-1":{
-      "title":"User name",
-    "subtitle":"kids instructor"
+  "trainer": {
+    "title": "trainers",
+    "subtitle": "our instructort",
+    "frame-1": {
+      "title": "User name",
+      "subtitle": "kids instructor"
     },
-    "frame-2":{
-      "title":"User name",
-    "subtitle":"kids instructor"
+    "frame-2": {
+      "title": "User name",
+      "subtitle": "kids instructor"
     },
-    "frame-3":{
-      "title":"User name",
-    "subtitle":"kids instructor"
+    "frame-3": {
+      "title": "User name",
+      "subtitle": "kids instructor"
     }
   },
-  "contract":{
-    "title":"Contact",
-    "subtitle":"get your free pass",
+  "contract": {
+    "title": "Contact",
+    "subtitle": "get your free pass",
     "fname": "Full name",
     "email": "Email",
     "phone": "Phone",
     "msg": "Type your message.....",
     "get-in-touch": "Get in touch"
   },
-  "footer":{
+  "footer": {
     "description": "Fight School has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.",
     "contact": "Contact",
     "address": "Stefana Dečanskog bb, ATC local 16, Bijeljina BiH",
-    "newsletter":"Newsletter",
-    "newsletter-des":"Subscribe to our Newsletter to be updated.We promise not to spam",
-    "subscribe":"Subscribe",
-    "copyright":"© Copyright 2024 All Rights Reserved"
+    "newsletter": "Newsletter",
+    "newsletter-des": "Subscribe to our Newsletter to be updated.We promise not to spam",
+    "subscribe": "Subscribe",
+    "copyright": "© Copyright 2024 All Rights Reserved"
   }
 }

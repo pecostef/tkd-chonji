@@ -8,7 +8,7 @@ module.exports = {
   debug: process.env.NODE_ENV === 'development',
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'de', 'es'],
+    locales: ['en', 'de', 'fr', 'it'],
   },
   /** To avoid issues when deploying to some paas (vercel...) */
   localePath:
@@ -25,4 +25,4 @@ module.exports = {
   // strictMode: true,
   // serializeConfig: false,
   // react: { useSuspense: false }
-}
+};
