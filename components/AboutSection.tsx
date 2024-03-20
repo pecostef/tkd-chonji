@@ -47,10 +47,10 @@ export function AboutSection() {
               data-aos-duration={1000}
               data-aos-easing="ease-in-out"
             >
-              <a href="#">
+              <a href="#contact">
                 <button>{t('about.find-out-more')}</button>
               </a>
-              <a href="#">
+              <a href={`tel:${t('about.number')}`}>
                 <div className="call">
                   <div className="ico">
                     <i className="uil uil-outgoing-call" />

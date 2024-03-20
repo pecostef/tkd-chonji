@@ -10,6 +10,17 @@ type Props = {
   setShowMenu: () => { val: string };
 };
 
+const SUPPORTED_LANGUAGES = [
+  {
+    code: 'de',
+    label: 'Deutsch',
+  },
+  {
+    code: 'en',
+    label: 'English',
+  },
+];
+
 export function Header() {
   const router = useRouter();
   const { t } = useTranslation('common');
@@ -30,20 +41,28 @@ export function Header() {
               <i className="uil uil-map-marker" /> {t('header.location')}
             </p>
             <p>
-              <i className="uil uil-outgoing-call" /> {t('header.number')}
+              <i className="uil uil-outgoing-call" />
+              <a href={`tel:${t('header.number')}`}>{t('header.number')}</a>
             </p>
             <p>
               <i className="uil uil-clock" /> {t('header.time')}
             </p>
+            <p>
+              <i className="uil uil-envelope" />
+              <a href={`mailto:${t('header.email')}`}>{t('header.email')}</a>
+            </p>
           </div>
           <div className="social">
-            <a href="#">
+            <a target="_blank" href="https://www.facebook.com/ervin.begic1">
               <i className="uil uil-facebook-f" />
             </a>
-            <a href="#">
+            <a
+              target="_blank"
+              href="https://www.instagram.com/_ervin_begic_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+            >
               <i className="uil uil-instagram" />
             </a>
-            <a href="#">
+            <a style={{ display: 'none' }} href="#">
               <i className="uil uil-linkedin" />
             </a>
             <div className="lang">
@@ -54,18 +73,11 @@ export function Header() {
                   id="lang"
                   onChange={(e) => onToggleLanguageClick(e.target.value)}
                 >
-                  <option selected={currentLocale == 'en'} value="en">
-                    {t('header.english')}
-                  </option>
-                  <option selected={currentLocale == 'de'} value="de">
-                    {t('header.german')}
-                  </option>
-                  <option selected={currentLocale == 'fr'} value="fr">
-                    {t('header.french')}
-                  </option>
-                  <option selected={currentLocale == 'it'} value="it">
-                    {t('header.italian')}
-                  </option>
+                  {SUPPORTED_LANGUAGES.map((l) => (
+                    <option selected={currentLocale == l.code} value={l.code}>
+                      {l.label}
+                    </option>
+                  ))}
                 </select>
                 <i className="uil uil-angle-down" />
               </div>

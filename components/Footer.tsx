@@ -13,13 +13,16 @@ export function Footer() {
             </div>
             <p>{t('footer.description')}</p>
             <div className="social">
-              <a href="#">
+              <a target="_blank" href="https://www.facebook.com/ervin.begic1">
                 <i className="uil uil-facebook-f" />
               </a>
-              <a href="#">
+              <a
+                target="_blank"
+                href="https://www.instagram.com/_ervin_begic_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+              >
                 <i className="uil uil-instagram" />
               </a>
-              <a href="#">
+              <a style={{ display: 'none' }} href="#">
                 <i className="uil uil-linkedin" />
               </a>
             </div>
@@ -27,28 +30,25 @@ export function Footer() {
           <div className="link-block">
             <h3>{t('footer.contact')}</h3>
             <div className="urls">
-              <a href="#">
+              <a href={`tel:${t('footer.number')}`}>
                 <i className="uil uil-outgoing-call" />
                 <div>
-                  <p>
-                    +000 000 000 (uk) <br />
-                    +987 654 3210 (us)
-                  </p>
+                  <p>{t('footer.number')}</p>
                 </div>
               </a>
-              <a href="#">
-                <i className="uil uil-envelope" /> info@email.ba
+              <a href={`mailto:${t('footer.email')}}`}>
+                <i className="uil uil-envelope" /> {t('footer.email')}
               </a>
               <p>
                 <i className="uil uil-map-marker" /> {t('footer.address')}
               </p>
-              <a href="#">
+              <a style={{ display: 'none' }} href="#">
                 <i className="uil uil-link-alt" />
                 website.com
               </a>
             </div>
           </div>
-          <div className="link-block">
+          <div style={{ display: 'none' }} className="link-block">
             <h3>{t('footer.newsletter')}</h3>
             <p>{t('footer.newsletter-des')}</p>
             <form className="subsribe">

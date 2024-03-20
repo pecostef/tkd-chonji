@@ -14,15 +14,15 @@ export function HeroSection() {
             data-aos-duration={1000}
             data-aos-easing="ease-in-out"
           >
-            <span>{t('home.subtitle')}</span>
+            <span style={{ display: 'none' }}>{t('home.subtitle')}</span>
             <h1>{t('home.title')}</h1>
             <p>{t('home.description')}</p>
-            <form className="subsribe">
+            <form style={{ display: 'none' }} className="subsribe">
               <input type="text" placeholder="example@example.com" />
               <button>{t('home.subscribe')}</button>
             </form>
           </div>
-          <div className="info">
+          <div style={{ display: 'none' }} className="info">
             <div data-text="9k">
               <p>{t('home.info-value-1')}</p>
               <span>{t('home.info-title-1')}</span>

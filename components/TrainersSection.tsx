@@ -27,14 +27,14 @@ export function TrainersSection() {
             data-aos-easing="ease-in-out"
           >
             <div className="frame-1">
-              <img src="images/taekwondo-nobkg-3.png" alt="" />
+              <img src="images/Ervin.png" alt="" />
             </div>
             <div className="body">
               <div>
                 <h3>{t('trainer.frame-1.title')}</h3>
                 <p>{t('trainer.frame-1.subtitle')}</p>
               </div>
-              <div className="social">
+              <div style={{ display: 'none' }} className="social">
                 <a href="#">
                   <i className="uil uil-facebook-f" />
                 </a>
@@ -57,14 +57,14 @@ export function TrainersSection() {
             data-aos-easing="ease-in-out"
           >
             <div className="frame-1">
-              <img src="images/taekwondo-nobkg-6.png" alt="" />
+              <img src="images/Ervin.png" alt="" />
             </div>
             <div className="body">
               <div>
                 <h3>{t('trainer.frame-2.title')}</h3>
                 <p>{t('trainer.frame-2.subtitle')}</p>
               </div>
-              <div className="social">
+              <div style={{ display: 'none' }} className="social">
                 <a href="#">
                   <i className="uil uil-facebook-f" />
                 </a>
@@ -86,14 +86,14 @@ export function TrainersSection() {
             data-aos-easing="ease-in-out"
           >
             <div className="frame-1">
-              <img src="images/Ervin.png" alt="" />
+              <img src="images/taekwondo-nobkg-3.png" alt="" />
             </div>
             <div className="body">
               <div>
                 <h3>{t('trainer.frame-3.title')}</h3>
                 <p>{t('trainer.frame-3.subtitle')}</p>
               </div>
-              <div className="social">
+              <div style={{ display: 'none' }} className="social">
                 <a href="#">
                   <i className="uil uil-facebook-f" />
                 </a>

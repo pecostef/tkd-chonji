@@ -1,7 +1,7 @@
 {
   "header": {
-    "location": "LOS ANGELES, INC - 4502",
-    "number": "+000 000 0000",
+    "location": "Zu den drei Linden 80, 4058 Basel",
+    "number": "+41 76 675 73 75",
     "time": "9AM - 10PM",
     "select-lang": "Select lang",
     "english": "English",
@@ -32,25 +32,25 @@
     "description": "Fight School has specialized in martial arts since 1986 and has one of the most innovative programs in the nation. We teach martial arts because we love it — not because we want to make money on you. Unlike other martial arts schools, we do not require you to sign long term contracts.",
     "find-out-more": "find out more",
     "have-any-questions": "have any questions?",
-    "number": "+387 65 737 788"
+    "number": "+41 76 675 73 75"
   },
   "service": {
     "title": "Services",
     "subtitle": "our best schedule programs",
     "description": "We teach martial arts because we love it — not because we want to make money on you. Unlike other martial arts schools, we do not require you to sign long term contracts.",
     "card-1": {
-      "time": "5AM - 6PM",
-      "title": "teen & adult karate",
+      "time": "18:30 - 19:45",
+      "title": "Teen & Adult Taekwon-Do",
       "subtitle": "It is an unfortunate fact that many martial artists suffer from knee pain."
     },
     "card-2": {
-      "time": "5AM - 6PM",
-      "title": "teen & adult karate",
+      "time": "18:30 - 19:45",
+      "title": "Teen & Adult Taekwon-Do",
       "subtitle": "It is an unfortunate fact that many martial artists suffer from knee pain."
     },
     "card-3": {
-      "time": "5AM - 6PM",
-      "title": "teen & adult karate",
+      "time": "18:30 - 19:45",
+      "title": "Teen & Adult Taekwon-Do",
       "subtitle": "It is an unfortunate fact that many martial artists suffer from knee pain."
     }
   },
@@ -82,7 +82,7 @@
   "footer": {
     "description": "Fight School has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.",
     "contact": "Contact",
-    "address": "Stefana Dečanskog bb, ATC local 16, Bijeljina BiH",
+    "address": "Zu den drei Linden 80, 4058 Basel",
     "newsletter": "Newsletter",
     "newsletter-des": "Subscribe to our Newsletter to be updated.We promise not to spam",
     "subscribe": "Subscribe",

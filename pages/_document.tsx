@@ -15,6 +15,7 @@ class MyDocument extends Document<Props> {
         <Head>
           <meta charSet="UTF-8" />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <link rel="icon" type="image/x-icon" href="images/logo.png"></link>
           <link rel="stylesheet" href="app.css" />
           <link
             rel="stylesheet"
