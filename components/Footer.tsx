@@ -13,7 +13,10 @@ export function Footer() {
             </div>
             <p>{t('footer.description')}</p>
             <div className="social">
-              <a target="_blank" href="https://www.facebook.com/ervin.begic1">
+              <a
+                target="_blank"
+                href="https://www.facebook.com/profile.php?id=100032847801899"
+              >
                 <i className="uil uil-facebook-f" />
               </a>
               <a
@@ -36,7 +39,7 @@ export function Footer() {
                   <p>{t('footer.number')}</p>
                 </div>
               </a>
-              <a href={`mailto:${t('footer.email')}}`}>
+              <a href={`mailto:${t('footer.email')}`}>
                 <i className="uil uil-envelope" /> {t('footer.email')}
               </a>
               <p>

@@ -53,7 +53,10 @@ export function Header() {
             </p>
           </div>
           <div className="social">
-            <a target="_blank" href="https://www.facebook.com/ervin.begic1">
+            <a
+              target="_blank"
+              href="https://www.facebook.com/profile.php?id=100032847801899"
+            >
               <i className="uil uil-facebook-f" />
             </a>
             <a

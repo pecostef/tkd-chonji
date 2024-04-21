@@ -3,7 +3,7 @@
     "location": "Zu den drei Linden 80, 4058 Basel",
     "number": "+41 76 675 73 75",
     "email": "tkd-chon-ji@mail.ch",
-    "time": "9AM - 18PM",
+    "time": "9:00 - 18:00",
     "select-lang": "Sprache",
     "home": "Startseite",
     "about-us": "Über uns",
@@ -12,9 +12,9 @@
     "contact-us": "Kontakt"
   },
   "home": {
-    "title": "WILLKOMMEN in der Chon-Ji Schule",
+    "title": "WILLKOMMEN in der ITF TAEKWON-DO SCHULE CHON-JI",
     "subtitle": "join over 9,000+ students",
-    "description": "Taekwon-Do (TKD) ist eine koreanische Kampfkunst, die körperliche Fähigkeiten und Charakterbildung fördert. Neben Kampf- und Verteidigungstechniken stärkt es den Körper, verbessert Ausdauer, Schnelligkeit und Leistung. Es fördert die Entwicklung von Willenskraft, Selbstdisziplin und innerer Ruhe. Die fünf Prinzipien sind Höflichkeit, Integrität, Ausdauer, Selbstkontrolle und unbezwingbarer Wille. Seit 2023 bieten wir auch Kick-Boxing-Wettkämpfe als Teil unsres Programms.",
+    "description": "Taekwon-Do (TKD) ist eine koreanische Kampfkunst, die körperliche Fähigkeiten und Charakterbildung fördert. Neben Kampf- und Verteidigungstechniken stärkt es den Körper, verbessert Ausdauer, Schnelligkeit und Leistung. Es fördert die Entwicklung von Willenskraft, Selbstdisziplin und innerer Ruhe. Die fünf Prinzipien sind Höflichkeit, Integrität, Ausdauer, Selbstkontrolle und unbezwingbarer Wille. Seit 2023 bieten wir auch Kick-Boxing-Wettkämpfe als Teil unseres Programms.",
     "subscribe": "Subscribe",
     "info-title-1": "Student Joined",
     "info-title-2": "Best trainers",
@@ -25,30 +25,30 @@
   },
   "about": {
     "title": "Über uns",
-    "subtitle": "Lass uns mehr über unsere Kampfschule Chon-Ji erfahren",
-    "description": "ITF Taekwon-Do Schule Chon-Ji wurde 2020 gegründet und ist Mitglied der I.T.F Switzerland Taekwon-Do Federation, Sport Basel und seit 2023 der WAKO Switzerland. Der Gründer und Haupttrainer, Ervin Begic, begann mit zehn Jahren in Bosnien-Herzegowina mit dem Taekwon-Do Training. Er ist mehrfacher Goldmedaillengewinner bei bosnischen Meisterschaften, war Teil der Nationalmannschaft und erreichte den 3. Platz bei den Europameisterschaften 2011. Er hat auch an Weltmeisterschaften teilgenommen und war in Bosnien-Herzegowina Nationalmeister im Kick-Box, Light Contact. Er besitzt den Schwarzgurt 4. Dan.",
+    "subtitle": "LASS UNS MEHR ÜBER UNSERE TAEKWON-DO SCHULE ERFAHREN",
+    "description": "ITF Taekwon-Do Schule Chon-Ji wurde 2020 gegründet und ist Mitglied der I.T.F Switzerland Taekwon-Do Federation, von Sport Basel und seit 2023 der WAKO Switzerland. Der Gründer und Haupttrainer, Ervin Begic, begann mit zehn Jahren in Bosnien-Herzegowina mit dem Taekwon-Do Training. Er ist mehrfacher Goldmedaillengewinner bei bosnischen Meisterschaften, war Teil der Nationalmannschaft und erreichte den 3. Platz bei den Europameisterschaften 2011. Er hat auch an Weltmeisterschaften teilgenommen und war in Bosnien-Herzegowina Nationalmeister im Kick-Box, Light Contact. Er besitzt den Schwarzgurt 4. Dan.",
     "find-out-more": "Mehr erfahren",
     "have-any-questions": "Fragen?",
     "number": "+41 76 675 73 75"
   },
   "service": {
     "title": "Dienstleistungen",
-    "subtitle": "our best schedule programs",
-    "description": "Als leidenschaftlicher Trainer teile ich gerne mein Kampfsportwissen. Der Spaß steht im Vordergrund, doch Wettkämpfe und Gurtprüfungen sind wichtig. Kurse für Kinder ab 6, Jugendliche und Erwachsene",
+    "subtitle": "UNSER TRAININGSPROGRAMM",
+    "description": "Als leidenschaftlicher Trainer teile ich gerne mein Kampfsportwissen. Der Spaß steht im Vordergrund, doch Wettkämpfe und Gurtprüfungen sind wichtig. Kurse für Kinder ab 6 Jahren, Jugendliche und Erwachsene",
     "card-1": {
-      "time": "18:30 - 19:45",
+      "time": "Dienstag 18:30 - 19:45",
       "title": "Taekwon-Do",
-      "subtitle": "Eine Sitzung, die darauf abzielt, das Verständnis für Taekwondo-Figuren (Tuls) zu vertiefen"
+      "subtitle": "Unterricht, welcher darauf abzielt, das Verständnis für Taekwon-Do-Formen (Tuls), Selbstverteidigung, Spezialtechniken, Krafttest u.v.m. zu vertiefen"
     },
     "card-2": {
-      "time": "18:30 - 19:45",
+      "time": "Mittwoch 18:30 - 19:45",
       "title": "Taekwon-Do + Kick-Boxing-Techniken",
-      "subtitle": "Eine Sitzung, die sich auf Techniken konzentriert, die sowohl im Taekwon-Do als auch im Kick-Boxing-Sparring anwendbar sind"
+      "subtitle": "Unterricht, welcher sich auf Technicken konzentriert, die sowohl im Taekwon-Do als auch im Kick-Boxing-Sparring anwendbar sind"
     },
     "card-3": {
-      "time": "20:00 - 21:00",
+      "time": "Freitag 20:00 - 21:00",
       "title": "Konditionierung",
-      "subtitle": "Eine Sitzung, die darauf abzielt, Ausdauer, Stärke, Geschwindigkeit, Beweglichkeit und Mobilität zu verbessern"
+      "subtitle": "Unterricht, welcher darauf abzielt, Ausdauer, Stärke, Geschwindigkeit, Beweglichkeit und Mobilität zu verbessern"
     }
   },
   "trainer": {
@@ -60,16 +60,16 @@
     },
     "frame-2": {
       "title": "Yehor Vynnyk",
-      "subtitle": "Schwarzgurt 1. Dan Ersatztrainer Taekwon-Do ITF"
+      "subtitle": "Schwarzgurt 1. Dan Assistenztrainer Taekwon-Do ITF"
     },
     "frame-3": {
       "title": "Yehor Vynnyk",
-      "subtitle": "Schwarzgurt 1. Dan Ersatztrainer Taekwon-Do ITF"
+      "subtitle": "Schwarzgurt 1. Dan Assistenztrainer Taekwon-Do ITF"
     }
   },
   "contract": {
-    "title": "Contact",
-    "subtitle": "get your free pass",
+    "title": "kontakt",
+    "subtitle": "Come visit us for a trial training",
     "fname": "Full name",
     "email": "E-Mail",
     "phone": "Phone",
@@ -77,7 +77,7 @@
     "get-in-touch": "Get in touch"
   },
   "footer": {
-    "description": "Die Chon-ji Taekwon-Do Schule ist seit 2020 auf Kampfsportarten und Kampfsport spezialisiert und kombiniert verschiedene Unterrichtsmethoden, um hochwertige Programme anzubieten.",
+    "description": "ITF Taekwon-Do Schule Chon-Ji ist seit 2020 auf Kampfsportarten Taekwon-Do und Kick-Boxing spezialisiert und kombiniert verschiedene Unterrichtsmethoden, um hochwertige Programme anzubieten.",
     "contact": "Kontakt",
     "address": "Zu den drei Linden 80, 4058 Basel",
     "number": "+41 76 675 73 75",

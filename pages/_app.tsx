@@ -6,7 +6,7 @@ import Head from 'next/head';
 const MyApp = ({ Component, pageProps }: AppProps) => (
   <>
     <Head>
-      <title>Taekwon Do Chon-Ji </title>
+      <title>ITF Taekwon-Do Chon-Ji </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </Head>
     <Component {...pageProps} />

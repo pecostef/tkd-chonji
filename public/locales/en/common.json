@@ -12,7 +12,7 @@
     "contact-us": "Contact"
   },
   "home": {
-    "title": "WELCOME TO chon-ji school",
+    "title": "WELCOME TO ITF TAEKWON-DO SCHOOL CHON-JI",
     "subtitle": "join over 9,000+ students",
     "description": "Taekwon-Do (TKD) is a Korean martial art that promotes physical abilities and character development. In addition to combat and defense techniques, it strengthens the body, improves endurance, speed, and performance. It encourages the development of willpower, self-discipline, and inner peace. The five principles are courtesy, integrity, perseverance, self-control, and indomitable spirit. Since 2023, we offer kick-boxing competitions as part of our program.",
     "subscribe": "Subscribe",
@@ -36,17 +36,17 @@
     "subtitle": "our schedule programs",
     "description": "I would love to introduce you to martial arts and share my knowledge, skills, and experience. The sport should primarily be fun, but I also want to motivate you to participate in competitions and pass belt exams. I teach children from 6 years old, teenagers, and adults",
     "card-1": {
-      "time": "18:30 - 19:45",
+      "time": "Tuesday 18:30 - 19:45",
       "title": "Taekwon-Do",
       "subtitle": "A session dedicated to deepening the understanding of Taekwondo Figures (Tuls)"
     },
     "card-2": {
-      "time": "18:30 - 19:45",
+      "time": "Wednesday 18:30 - 19:45",
       "title": "Taekwon-Do + Kick-Boxing Techniques",
       "subtitle": "A session focused on techniques applicable in both Taekwon-Do and Kick-Boxing sparring"
     },
     "card-3": {
-      "time": "20:00 - 21:00",
+      "time": "Friday 20:00 - 21:00",
       "title": "Conditioning",
       "subtitle": "A session aimed at enhancing endurance, strength, speed, agility, and mobility"
     }
