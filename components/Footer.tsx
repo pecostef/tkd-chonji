@@ -10,6 +10,10 @@ export function Footer() {
           <div className="about">
             <div className="logo">
               <img src="images/logo.png" alt="" />
+              <img src="images/itf-logo.jpeg" alt="" />
+              <img src="images/wako-logo.jpeg" alt="" />
+              <img src="images/kick-boxing-logo.jpeg" alt="" />
+              <img src="images/sport-basel-logo.png" alt="" />
             </div>
             <p>{t('footer.description')}</p>
             <div className="social">
