@@ -1,7 +1,23 @@
+'use client';
+import { useForm } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
+import { sendEmail } from 'utils/send-email';
+
+export type FormData = {
+  name: string;
+  email: string;
+  phone: string;
+  message: string;
+};
 
 export function ContactSection() {
   const { t } = useTranslation('common');
+
+  const { register, handleSubmit } = useForm<FormData>();
+
+  function onSubmit(data: FormData) {
+    sendEmail(data);
+  }
 
   return (
     <section
@@ -18,43 +34,44 @@ export function ContactSection() {
           <h2>{t('contract.subtitle')}</h2>
         </div>
         <div className="form-grid">
-          <form action="#" method="post">
+          <form onSubmit={handleSubmit(onSubmit)}>
             <div className="fild">
               <input
+                required
                 type="text"
                 id="name"
-                name="fname"
                 placeholder=" "
-                required
+                {...register('name', { required: true })}
               />
               <label htmlFor="fname">{t('contract.fname')}</label>
             </div>
             <div className="row">
               <div className="fild">
                 <input
+                  required
                   type="email"
                   id="email"
-                  name="email"
                   placeholder=" "
-                  required
+                  {...register('email', { required: true })}
                 />
                 <label htmlFor="email">{t('contract.email')}</label>
               </div>
               <div className="fild">
                 <input
+                  required
                   type="text"
                   id="phone"
-                  name="phone"
                   placeholder=" "
-                  required
+                  {...register('phone', { required: true })}
                 />
                 <label htmlFor="phone">{t('contract.phone')}</label>
               </div>
             </div>
             <textarea
-              name="msg"
+              required
               placeholder={t('contract.msg')}
               defaultValue={''}
+              {...register('message', { required: false })}
             />
             <button>
               {t('contract.get-in-touch')}{' '}

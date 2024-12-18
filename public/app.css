@@ -521,7 +521,6 @@ section.bg .title span::before {
   gap: 1rem;
 }
 .form-grid form {
-  display: none;
   width: 100%;
   padding: 5rem;
   background: white;

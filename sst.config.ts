@@ -1,7 +1,7 @@
 import { Certificate } from 'aws-cdk-lib/aws-certificatemanager';
 import { SSTConfig } from 'sst';
 import { NextjsSite } from 'sst/constructs';
-import config from 'env';
+import config from 'deployment.config';
 
 export default {
   config(_input) {

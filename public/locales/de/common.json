@@ -69,12 +69,12 @@
   },
   "contract": {
     "title": "kontakt",
-    "subtitle": "Come visit us for a trial training",
-    "fname": "Full name",
+    "subtitle": "Komm zu uns für ein Probetraining",
+    "fname": "Vollständiger Name",
     "email": "E-Mail",
-    "phone": "Phone",
-    "msg": "Type your message.....",
-    "get-in-touch": "Get in touch"
+    "phone": "Telefon",
+    "msg": "Gib deine Nachricht ein.....",
+    "get-in-touch": "Nimm Kontakt auf"
   },
   "footer": {
     "description": "ITF Taekwon-Do Schule Chon-Ji ist seit 2020 auf Kampfsportarten Taekwon-Do und Kick-Boxing spezialisiert und kombiniert verschiedene Unterrichtsmethoden, um hochwertige Programme anzubieten.",
