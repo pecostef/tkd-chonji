@@ -1,33 +1,23 @@
-interface ENV {
-  CERT_ARN: string | undefined;
-  DOMAIN_NAME: string | undefined;
-}
+import { AppConfig } from './app.config';
+import { castSmtpPortOrDefault, ConfigLoader } from './config.utils';
 
-interface Config {
-  CERT_ARN: string;
-  DOMAIN_NAME: string;
-}
-
-// Loading process.env as ENV interface
-
-const getConfig = (): ENV => {
-  return {
-    CERT_ARN: process.env.CERT_ARN,
-    DOMAIN_NAME: process.env.DOMAIN_NAME,
-  };
+export const envKeys = {
+  certArn: 'CERT_ARN',
+  domainName: 'DOMAIN_NAME',
+  senderEmail: 'SENDER_EMAIL',
+  senderEmailPassword: 'SENDER_EMAIL_PASSWORD',
+  destinationEmail: 'DESTINATION_EMAIL',
+  fromEmail: 'FROM_EMAIL',
+  smtpServer: 'SMTP_SERVER',
+  smtpPort: 'SMTP_PORT',
 };
 
-const getSanitizedConfig = (config: ENV): Config => {
-  for (const [key, value] of Object.entries(config)) {
-    if (value === undefined) {
-      throw new Error(`Missing key ${key} in config.env`);
-    }
-  }
-  return config as Config;
-};
+interface DeploymentConfig extends AppConfig {
+  certArn: string;
+  domainName: string;
+}
 
-const _config = getConfig();
-
-const config = getSanitizedConfig(_config);
-
+const configLoader = new ConfigLoader<DeploymentConfig>(envKeys);
+const config = configLoader.getSanitizedConfig();
+castSmtpPortOrDefault(config);
 export default config;

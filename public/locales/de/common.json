@@ -74,7 +74,11 @@
     "email": "E-Mail",
     "phone": "Telefon",
     "msg": "Gib deine Nachricht ein.....",
-    "get-in-touch": "Nimm Kontakt auf"
+    "get-in-touch": "Nimm Kontakt auf",
+    "contact-heading": "Deine Nachricht wurde empfangen",
+    "contact-body": "Hallo {{name}}, <br/> Danke, dass du unsere Taekwondo-Schule kontaktiert hast. Wir haben deine Nachricht erhalten und freuen uns über dein Interesse an unserem Programm. Wir werden dir so schnell wie möglich antworten, entweder per E-Mail oder Telefon. <br/> Solltest du in der Zwischenzeit weitere Fragen haben oder weitere Informationen benötigen, zögere bitte nicht, uns per E-Mail oder Telefon/Whatsapp zu kontaktieren. <br/> <br/> Viele Grüsse, <br/> Chon-Ji ITF Taekwon-Do. <br/> <br/> <br/> Deine Nachricht: <br/> Name: {{name}} <br/> E-mail: {{email}} <br/> Telefon: {{phone}} <br/> Nachricht: {{message}} ",
+    "email-success": "Danke für deine Nachricht. Wir haben sie erfolgreich erhalten und dir eine Bestätigung per E-Mail geschickt. Du hörst bald von uns!",
+    "email-fail": "Leider gab's ein Problem beim Senden deiner Nachricht. Versuch es bitte nochmal. Falls das Problem weiterhin besteht, zögere nicht, uns direkt über die unten angegebenen E-Mail- oder Telefonkontakte zu erreichen."
   },
   "footer": {
     "description": "ITF Taekwon-Do Schule Chon-Ji ist seit 2020 auf Kampfsportarten Taekwon-Do und Kick-Boxing spezialisiert und kombiniert verschiedene Unterrichtsmethoden, um hochwertige Programme anzubieten.",

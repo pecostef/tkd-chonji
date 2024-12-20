@@ -1,4 +1,5 @@
 'use client';
+import { useCallback, useEffect, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
 import { sendEmail } from 'utils/send-email';
@@ -13,11 +14,28 @@ export type FormData = {
 export function ContactSection() {
   const { t } = useTranslation('common');
 
-  const { register, handleSubmit } = useForm<FormData>();
+  const { register, handleSubmit, reset, formState } = useForm<FormData>();
+  const [submissionError, setSubmissionError] = useState('');
 
-  function onSubmit(data: FormData) {
-    sendEmail(data);
-  }
+  useEffect(() => {
+    reset();
+  }, [t]);
+
+  const onSubmit = async (data: FormData) => {
+    // async request which may result error
+    let emailDeliverySuccessful = false;
+    try {
+      emailDeliverySuccessful = await sendEmail(data);
+    } catch (e) {
+      emailDeliverySuccessful = false;
+    }
+    if (emailDeliverySuccessful) {
+      setSubmissionError('success');
+      reset();
+    } else {
+      setSubmissionError('fail');
+    }
+  };
 
   return (
     <section
@@ -37,6 +55,7 @@ export function ContactSection() {
           <form onSubmit={handleSubmit(onSubmit)}>
             <div className="fild">
               <input
+                maxLength={100}
                 required
                 type="text"
                 id="name"
@@ -48,6 +67,7 @@ export function ContactSection() {
             <div className="row">
               <div className="fild">
                 <input
+                  maxLength={256}
                   required
                   type="email"
                   id="email"
@@ -58,6 +78,7 @@ export function ContactSection() {
               </div>
               <div className="fild">
                 <input
+                  maxLength={20}
                   required
                   type="text"
                   id="phone"
@@ -71,8 +92,13 @@ export function ContactSection() {
               required
               placeholder={t('contract.msg')}
               defaultValue={''}
+              maxLength={5000}
               {...register('message', { required: false })}
             />
+            {submissionError === 'fail' && <h3>{t('contract.email-fail')}</h3>}
+            {submissionError === 'success' && (
+              <h3>{t('contract.email-success')}</h3>
+            )}
             <button>
               {t('contract.get-in-touch')}{' '}
               <i className="uil uil-arrow-up-right" />

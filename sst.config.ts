@@ -1,7 +1,7 @@
 import { Certificate } from 'aws-cdk-lib/aws-certificatemanager';
 import { SSTConfig } from 'sst';
 import { NextjsSite } from 'sst/constructs';
-import config from 'deployment.config';
+import config, { envKeys } from 'deployment.config';
 
 export default {
   config(_input) {
@@ -13,14 +13,20 @@ export default {
   stacks(app) {
     app.stack(function Site({ stack }) {
       const site = new NextjsSite(stack, 'site', {
+        environment: {
+          [envKeys.destinationEmail]: config.destinationEmail as string,
+          [envKeys.fromEmail]: config.fromEmail as string,
+          [envKeys.senderEmail]: config.senderEmail as string,
+          [envKeys.senderEmailPassword]: config.senderEmailPassword as string,
+        },
         customDomain: {
-          domainName: config.DOMAIN_NAME,
+          domainName: config.domainName as string,
           isExternalDomain: true,
           cdk: {
             certificate: Certificate.fromCertificateArn(
               stack,
               'site-cert',
-              config.CERT_ARN
+              config.certArn as string
             ),
           },
         },
