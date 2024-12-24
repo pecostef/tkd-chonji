@@ -7,8 +7,8 @@ module.exports = {
   // https://www.i18next.com/overview/configuration-options#logging
   debug: process.env.NODE_ENV === 'development',
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'de', 'es'],
+    defaultLocale: 'de',
+    locales: ['en', 'de'],
   },
   /** To avoid issues when deploying to some paas (vercel...) */
   localePath:
@@ -25,4 +25,4 @@ module.exports = {
   // strictMode: true,
   // serializeConfig: false,
   // react: { useSuspense: false }
-}
+};

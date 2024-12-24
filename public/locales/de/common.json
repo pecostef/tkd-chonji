@@ -1,23 +1,22 @@
 {
   "header": {
-    "location": "LOS ANGELES, INC - 4502",
-    "number":"+000 000 0000",
-    "time":"9AM - 10PM",
-    "select-lang":"Select lang",
-    "english":"English",
-    "german":"German",
-    "spanish":"Spanish",
-    "home":"Home",
-    "about-us":"About us",
-    "services":"Services",
-    "trainers":"Trainers",
-    "contact-us":"Contact us de"
+    "location": "Zu den drei Linden 80, 4058 Basel",
+    "number": "+41 76 675 73 75",
+    "email": "tkd-chon-ji@mail.ch",
+    "time": "9:00 - 18:00",
+    "select-lang": "Sprache",
+    "home": "Startseite",
+    "about-us": "Über uns",
+    "posts": "News & Posts",
+    "services": "Dienstleistungen",
+    "trainers": "Trainer",
+    "contact-us": "Kontakt"
   },
-  "home":{
-    "title":"WELCOME TO chon-ji school",
-    "subtitle":"join over 9,000+ students",
-    "description":"Morbi eleifend tortor vitae sapien laoreet feugiat. Aliquam dictum vulputate sapien eu laoreet. Aliquam purus est, molestie et sagittis sit amet, sagittis in magna.",
-    "subscribe":"Subscribe",
+  "home": {
+    "title": "WILLKOMMEN in der ITF TAEKWON-DO SCHULE CHON-JI",
+    "subtitle": "join over 9,000+ students",
+    "description": "Taekwon-Do (TKD) ist eine koreanische Kampfkunst, die körperliche Fähigkeiten und Charakterbildung fördert. Neben Kampf- und Verteidigungstechniken stärkt es den Körper, verbessert Ausdauer, Schnelligkeit und Leistung. Es fördert die Entwicklung von Willenskraft, Selbstdisziplin und innerer Ruhe. Die fünf Prinzipien sind Höflichkeit, Integrität, Ausdauer, Selbstkontrolle und unbezwingbarer Wille. Seit 2023 bieten wir auch Kick-Boxing-Wettkämpfe als Teil unseres Programms an.",
+    "subscribe": "Subscribe",
     "info-title-1": "Student Joined",
     "info-title-2": "Best trainers",
     "info-title-3": "Happy Students",
@@ -25,66 +24,72 @@
     "info-value-2": "4K",
     "info-value-3": "8K"
   },
-  "about":{
-    "title":"INTRODUCTION",
-    "subtitle":"Let's know about our fight chon-ji school",
-    "description":"Fight School has specialized in martial arts since 1986 and has one of the most innovative programs in the nation. We teach martial arts because we love it — not because we want to make money on you. Unlike other martial arts schools, we do not require you to sign long term contracts.",
-    "find-out-more":"find out more",
-    "have-any-questions":"have any questions?",
-    "number":"+387 65 737 788"
+  "about": {
+    "title": "Über uns",
+    "subtitle": "LASS UNS MEHR ÜBER UNSERE TAEKWON-DO SCHULE ERFAHREN",
+    "description": "ITF Taekwon-Do Schule Chon-Ji wurde 2020 gegründet und ist Mitglied der I.T.F Switzerland Taekwon-Do Federation, von Sport Basel und seit 2023 der WAKO Switzerland. Der Gründer und Haupttrainer, Ervin Begic, begann mit zehn Jahren in Bosnien-Herzegowina mit dem Taekwon-Do Training. Er ist mehrfacher Goldmedaillengewinner bei bosnischen Meisterschaften, war Teil der Nationalmannschaft und erreichte den 3. Platz bei den Europameisterschaften 2011. Er hat auch an Weltmeisterschaften teilgenommen und war in Bosnien-Herzegowina Nationalmeister im Kick-Box, Light Contact. Er besitzt den Schwarzgurt 4. Dan.",
+    "find-out-more": "Mehr erfahren",
+    "have-any-questions": "Fragen?",
+    "number": "+41 76 675 73 75"
   },
-  "service":{
-    "title":"Services",
-    "subtitle":"our best schedule programs",
-    "description":"We teach martial arts because we love it — not because we want to make money on you. Unlike other martial arts schools, we do not require you to sign long term contracts.",
-    "card-1":{
-      "time":"5AM - 6PM",
-      "title":"teen & adult karate",
-      "subtitle":"It is an unfortunate fact that many martial artists suffer from knee pain."
+  "service": {
+    "title": "Dienstleistungen",
+    "subtitle": "UNSER TRAININGSPROGRAMM",
+    "description": "Als leidenschaftlicher Trainer teile ich gerne mein Kampfsportwissen. Der Spaß steht im Vordergrund, doch Wettkämpfe und Gurtprüfungen sind wichtig. Kurse für Kinder ab 6 Jahren, Jugendliche und Erwachsene",
+    "card-1": {
+      "time": "Dienstag 18:30 - 19:45",
+      "title": "Taekwon-Do",
+      "subtitle": "Unterricht, welcher darauf abzielt, das Verständnis für Taekwon-Do-Formen (Tuls), Selbstverteidigung, Spezialtechniken, Krafttest u.v.m. zu vertiefen"
     },
-    "card-2":{
-      "time":"5AM - 6PM",
-      "title":"teen & adult karate",
-      "subtitle":"It is an unfortunate fact that many martial artists suffer from knee pain."
+    "card-2": {
+      "time": "Mittwoch 18:30 - 19:45",
+      "title": "Taekwon-Do + Kick-Boxing-Techniken",
+      "subtitle": "Unterricht, welcher sich auf Technicken konzentriert, die sowohl im Taekwon-Do als auch im Kick-Boxing-Sparring anwendbar sind"
     },
-    "card-3":{
-      "time":"5AM - 6PM",
-      "title":"teen & adult karate",
-      "subtitle":"It is an unfortunate fact that many martial artists suffer from knee pain."
+    "card-3": {
+      "time": "Freitag 20:00 - 21:00",
+      "title": "Sparring",
+      "subtitle": "Sparring ist eine kontrollierte, nachgestellte Kampfpraxis in Kampfkünsten, die auf Fähigkeitsverfeinerung und Strategieentwicklung in einer sicheren Umgebung abzielt."
     }
   },
-  "trainer":{
-    "title":"trainers",
-    "subtitle":"our instructort",
-    "frame-1":{
-      "title":"User name",
-    "subtitle":"kids instructor"
+  "trainer": {
+    "title": "Trainer",
+    "subtitle": "Unsere Instruktoren",
+    "frame-1": {
+      "title": "Ervin Begic",
+      "subtitle": "Schwarzgurt 4. Dan Haupttrainer Taekwon-Do ITF & Kickboxing"
     },
-    "frame-2":{
-      "title":"User name",
-    "subtitle":"kids instructor"
+    "frame-2": {
+      "title": "Yehor Vynnyk",
+      "subtitle": "Schwarzgurt 1. Dan Assistenztrainer Taekwon-Do ITF"
     },
-    "frame-3":{
-      "title":"User name",
-    "subtitle":"kids instructor"
+    "frame-3": {
+      "title": "Yehor Vynnyk",
+      "subtitle": "Schwarzgurt 1. Dan Assistenztrainer Taekwon-Do ITF"
     }
   },
-  "contract":{
-    "title":"Contact",
-    "subtitle":"get your free pass",
-    "fname": "Full name",
-    "email": "Email",
-    "phone": "Phone",
-    "msg": "Type your message.....",
-    "get-in-touch": "Get in touch"
+  "contract": {
+    "title": "kontakt",
+    "subtitle": "Komm zu uns für ein Probetraining",
+    "fname": "Vollständiger Name",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "msg": "Gib deine Nachricht ein.....",
+    "get-in-touch": "Nimm Kontakt auf",
+    "contact-heading": "Deine Nachricht wurde empfangen",
+    "contact-body": "Hallo {{name}}, <br/> Danke, dass du unsere Taekwondo-Schule kontaktiert hast. Wir haben deine Nachricht erhalten und freuen uns über dein Interesse an unserem Programm. Wir werden dir so schnell wie möglich antworten, entweder per E-Mail oder Telefon. <br/> Solltest du in der Zwischenzeit weitere Fragen haben oder weitere Informationen benötigen, zögere bitte nicht, uns per E-Mail oder Telefon/Whatsapp zu kontaktieren. <br/> <br/> Viele Grüsse, <br/> Chon-Ji ITF Taekwon-Do. <br/> <br/> <br/> Deine Nachricht: <br/> Name: {{name}} <br/> E-mail: {{email}} <br/> Telefon: {{phone}} <br/> Nachricht: {{message}} ",
+    "email-success": "Danke für deine Nachricht. Wir haben sie erfolgreich erhalten und dir eine Bestätigung per E-Mail geschickt. Du hörst bald von uns!",
+    "email-fail": "Leider gab's ein Problem beim Senden deiner Nachricht. Versuch es bitte nochmal. Falls das Problem weiterhin besteht, zögere nicht, uns direkt über die unten angegebenen E-Mail- oder Telefonkontakte zu erreichen."
   },
-  "footer":{
-    "description": "Fight School has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.",
-    "contact": "Contact",
-    "address": "Stefana Dečanskog bb, ATC local 16, Bijeljina BiH",
-    "newsletter":"Newsletter",
-    "newsletter-des":"Subscribe to our Newsletter to be updated.We promise not to spam",
-    "subscribe":"Subscribe",
-    "copyright":"© Copyright 2024 All Rights Reserved"
+  "footer": {
+    "description": "ITF Taekwon-Do Schule Chon-Ji ist seit 2020 auf Kampfsportarten Taekwon-Do und Kick-Boxing spezialisiert und kombiniert verschiedene Unterrichtsmethoden, um hochwertige Programme anzubieten.",
+    "contact": "Kontakt",
+    "address": "Zu den drei Linden 80, 4058 Basel",
+    "number": "+41 76 675 73 75",
+    "email": "tkd-chon-ji@mail.ch",
+    "newsletter": "Newsletter",
+    "newsletter-des": "Abonnieren Sie unseren Newsletter, um auf dem Laufenden zu bleiben. Wir versprechen, keinen Spam zu senden",
+    "subscribe": "Abonnieren",
+    "copyright": "© Copyright 2024 Alle Rechte vorbehalten"
   }
 }

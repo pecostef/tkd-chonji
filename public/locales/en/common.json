@@ -1,23 +1,22 @@
 {
   "header": {
-    "location": "LOS ANGELES, INC - 4502",
-    "number":"+000 000 0000",
-    "time":"9AM - 10PM",
-    "select-lang":"Select lang",
-    "english":"English",
-    "german":"German",
-    "spanish":"Spanish",
-    "home":"Home",
-    "about-us":"About us",
-    "services":"Services",
-    "trainers":"Trainers",
-    "contact-us":"Contact us en"
+    "location": "Zu den drei Linden 80, 4058 Basel",
+    "number": "+41 76 675 73 75",
+    "email": "tkd-chon-ji@mail.ch",
+    "time": "9AM - 18PM",
+    "select-lang": "Language",
+    "home": "Home",
+    "about-us": "About us",
+    "posts": "News & Posts",
+    "services": "Services",
+    "trainers": "Trainers",
+    "contact-us": "Contact"
   },
-  "home":{
-    "title":"WELCOME TO chon-ji school",
-    "subtitle":"join over 9,000+ students",
-    "description":"Morbi eleifend tortor vitae sapien laoreet feugiat. Aliquam dictum vulputate sapien eu laoreet. Aliquam purus est, molestie et sagittis sit amet, sagittis in magna.",
-    "subscribe":"Subscribe",
+  "home": {
+    "title": "WELCOME TO ITF TAEKWON-DO SCHOOL CHON-JI",
+    "subtitle": "join over 9,000+ students",
+    "description": "Taekwon-Do (TKD) is a Korean martial art that promotes physical abilities and character development. In addition to combat and defense techniques, it strengthens the body, improves endurance, speed, and performance. It encourages the development of willpower, self-discipline, and inner peace. The five principles are courtesy, integrity, perseverance, self-control, and indomitable spirit. Since 2023, we offer kick-boxing competitions as part of our program.",
+    "subscribe": "Subscribe",
     "info-title-1": "Student Joined",
     "info-title-2": "Best trainers",
     "info-title-3": "Happy Students",
@@ -25,66 +24,72 @@
     "info-value-2": "4K",
     "info-value-3": "8K"
   },
-  "about":{
-    "title":"INTRODUCTION",
-    "subtitle":"Let's know about our fight chon-ji school",
-    "description":"Fight School has specialized in martial arts since 1986 and has one of the most innovative programs in the nation. We teach martial arts because we love it — not because we want to make money on you. Unlike other martial arts schools, we do not require you to sign long term contracts.",
-    "find-out-more":"find out more",
-    "have-any-questions":"have any questions?",
-    "number":"+387 65 737 788"
+  "about": {
+    "title": "ABOUT US",
+    "subtitle": "Let's know about our fight chon-ji school",
+    "description": "The ITF Taekwon-Do School Chon-Ji was founded in 2020 and is a member of the I.T.F Switzerland Taekwon-Do Federation, Sport Basel, and since 2023, WAKO Switzerland. The founder and main coach, Ervin Begic, started his Taekwon-Do training at the age of ten in Bosnia-Herzegovina. He is a multiple gold medal winner at Bosnian championships, was part of the national team, and achieved 3rd place at the European Championships in 2011. He has also participated in world championships and was the national champion in Kick-Box, Light Contact in Bosnia-Herzegovina. He holds a 4th Dan black belt.",
+    "find-out-more": "find out more",
+    "have-any-questions": "have any questions?",
+    "number": "+41 76 675 73 75"
   },
-  "service":{
-    "title":"Services",
-    "subtitle":"our best schedule programs",
-    "description":"We teach martial arts because we love it — not because we want to make money on you. Unlike other martial arts schools, we do not require you to sign long term contracts.",
-    "card-1":{
-      "time":"5AM - 6PM",
-      "title":"teen & adult karate",
-      "subtitle":"It is an unfortunate fact that many martial artists suffer from knee pain."
+  "service": {
+    "title": "Services",
+    "subtitle": "our schedule programs",
+    "description": "I would love to introduce you to martial arts and share my knowledge, skills, and experience. The sport should primarily be fun, but I also want to motivate you to participate in competitions and pass belt exams. I teach children from 6 years old, teenagers, and adults",
+    "card-1": {
+      "time": "Tuesday 18:30 - 19:45",
+      "title": "Taekwon-Do",
+      "subtitle": "A session dedicated to deepening the understanding of Taekwondo Figures (Tuls)"
     },
-    "card-2":{
-      "time":"5AM - 6PM",
-      "title":"teen & adult karate",
-      "subtitle":"It is an unfortunate fact that many martial artists suffer from knee pain."
+    "card-2": {
+      "time": "Wednesday 18:30 - 19:45",
+      "title": "Taekwon-Do + Kick-Boxing Techniques",
+      "subtitle": "A session focused on techniques applicable in both Taekwon-Do and Kick-Boxing sparring"
     },
-    "card-3":{
-      "time":"5AM - 6PM",
-      "title":"teen & adult karate",
-      "subtitle":"It is an unfortunate fact that many martial artists suffer from knee pain."
+    "card-3": {
+      "time": "Friday 20:00 - 21:00",
+      "title": "Sparring",
+      "subtitle": "Sparring is a controlled, mock combat practice in martial arts, aimed at skill refinement and strategy development within a safe environment."
     }
   },
-  "trainer":{
-    "title":"trainers",
-    "subtitle":"our instructort",
-    "frame-1":{
-      "title":"User name",
-    "subtitle":"kids instructor"
+  "trainer": {
+    "title": "Trainers",
+    "subtitle": "our instructors",
+    "frame-1": {
+      "title": "Ervin Begic",
+      "subtitle": "4th Dan Black Belt, Main Coach Taekwon-Do ITF & Kickboxing"
     },
-    "frame-2":{
-      "title":"User name",
-    "subtitle":"kids instructor"
+    "frame-2": {
+      "title": "Yehor Vynnyk",
+      "subtitle": "1st Dan Black Belt, Assistant Coach Taekwon-Do ITF"
     },
-    "frame-3":{
-      "title":"User name",
-    "subtitle":"kids instructor"
+    "frame-3": {
+      "title": "Yehor Vynnyk",
+      "subtitle": "1st Dan Black Belt, Assistant Coach Taekwon-Do ITF"
     }
   },
-  "contract":{
-    "title":"Contact",
-    "subtitle":"get your free pass",
+  "contract": {
+    "title": "Contact",
+    "subtitle": "Come visit us for a trial training",
     "fname": "Full name",
     "email": "Email",
     "phone": "Phone",
     "msg": "Type your message.....",
-    "get-in-touch": "Get in touch"
+    "get-in-touch": "Get in touch",
+    "contact-heading": "Your Message Has Been Received",
+    "contact-body": "Dear {{name}}, <br/> Thank you for contacting our Taekwondo school. We have received your message and appreciate your interest in our program. We will respond to you as soon as possible, either by email or phone. <br/> In the meantime, should you have any additional questions or need further information, please do not hesitate to reach out to us either by email or phone/Whatsapp. <br/> <br/> Sincerely, <br/> Chon-Ji ITF Taekwon-Do <br/> <br/> <br/> Your message: <br/> Name: {{name}} <br/> E-mail: {{email}} <br/> Phone: {{phone}} <br/> Message: {{message}} ",
+    "email-success": "Thank you for your message. We've successfully received it and a confirmation has been sent to your email. We'll get back to you shortly!",
+    "email-fail": "Unfortunately, there was an issue sending your message. Please try again. If the problem continues, feel free to directly reach out to us through the email or phone contacts provided below."
   },
-  "footer":{
-    "description": "Fight School has specialized in martial arts since 1986 and has one of the most innovative programs in the nation.",
+  "footer": {
+    "description": "Chon-ji Taekwon-Do School is specialized in martial arts and fighting sports since 2020 and combines different teaching methods to offer high quality programs.",
     "contact": "Contact",
-    "address": "Stefana Dečanskog bb, ATC local 16, Bijeljina BiH",
-    "newsletter":"Newsletter",
-    "newsletter-des":"Subscribe to our Newsletter to be updated.We promise not to spam",
-    "subscribe":"Subscribe",
-    "copyright":"© Copyright 2024 All Rights Reserved"
+    "address": "Zu den drei Linden 80, 4058 Basel",
+    "number": "+41 76 675 73 75",
+    "email": "tkd-chon-ji@mail.ch",
+    "newsletter": "Newsletter",
+    "newsletter-des": "Subscribe to our Newsletter to be updated.We promise not to spam",
+    "subscribe": "Subscribe",
+    "copyright": "© Copyright 2024 All Rights Reserved"
   }
 }

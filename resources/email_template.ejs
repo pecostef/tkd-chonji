@@ -1,0 +1,49 @@
+<!-- email_template.ejs -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Email Template</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+      }
+      .header img {
+        height: 50px;
+      }
+      .header h1 {
+        margin: 0;
+      }
+      .message-body {
+        padding: 20px;
+      }
+      .footer {
+        padding: 10px;
+        border-top: 1px solid #ddd;
+        text-align: center;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <img src="<%= logoSrc %>" alt="Logo" />
+      <h1><%= heading %></h1>
+    </div>
+    <div class="message-body">
+      <p><%- body %></p>
+    </div>
+    <div class="footer">
+      <p>© <%= new Date().getFullYear() %> ITF Taekwon-Do Schule Chon-Ji</p>
+      <p>Zu den drei Linden 80, 4058 Basel</p>
+      <p>+41 76 675 73 75</p>
+      <p>tkd-chon-ji@mail.ch</p>
+    </div>
+  </body>
+</html>
