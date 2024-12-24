@@ -14,6 +14,7 @@ import { Footer } from 'components/Footer';
 import { Header } from 'components/Header';
 import { HeroSection } from 'components/HeroSection';
 import { TrainersSection } from 'components/TrainersSection';
+import { PostsSection } from 'components/PostsSection';
 
 type Props = {
   // Add custom props here
@@ -31,6 +32,7 @@ const Homepage = (_props: InferGetStaticPropsType<typeof getStaticProps>) => {
         <Header></Header>
         <HeroSection></HeroSection>
         <AboutSection></AboutSection>
+        <PostsSection></PostsSection>
         <ServiceSection></ServiceSection>
         <TrainersSection></TrainersSection>
         <ContactSection></ContactSection>

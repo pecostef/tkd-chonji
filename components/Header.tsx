@@ -101,6 +101,9 @@ export function Header() {
           <a href="#about" onClick={() => setShowMenu((pre) => !pre)}>
             {t('header.about-us')}
           </a>
+          <a href="#posts" onClick={() => setShowMenu((pre) => !pre)}>
+            {t('header.posts')}
+          </a>
           <a href="#service" onClick={() => setShowMenu((pre) => !pre)}>
             {t('header.services')}
           </a>
