@@ -15,10 +15,10 @@ export function PostsSection() {
         >
           <span>{t('header.posts')}</span>
         </div>
-        <iframe
-          src="https://widget.tagembed.com/2144475"
-          style={{ width: '100%', height: '600px', border: 'none' }}
-        ></iframe>
+        <div
+          className="elfsight-app-0e618d0e-5173-4b72-9138-f5ba2d7d3067"
+          data-elfsight-app-lazy
+        ></div>
       </div>
     </section>
   );
