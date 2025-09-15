@@ -49,25 +49,6 @@ export function ServiceSection() {
             data-aos-easing="ease-in-out"
           >
             <div className="frame">
-              <img src="images/2.jpg" alt="" />
-            </div>
-            <div className="body">
-              <span>
-                <i className="uil uil-clock" /> {t('service.card-2.time')}
-              </span>
-              <h3>{t('service.card-2.title')}</h3>
-              <p>{t('service.card-2.subtitle')}</p>
-            </div>
-          </div>
-          <div
-            className="card"
-            data-aos="fade-up"
-            data-aos-offset={200}
-            data-aos-delay={70}
-            data-aos-duration={1000}
-            data-aos-easing="ease-in-out"
-          >
-            <div className="frame">
               <img src="images/3.jpg" alt="" />
             </div>
             <div className="body">
