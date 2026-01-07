@@ -6,7 +6,7 @@ import Head from 'next/head';
 const MyApp = ({ Component, pageProps }: AppProps) => (
   <>
     <Head>
-      <title>ITF Taekwon-Do Chon-Ji </title>
+      <title>TAEKWON-DO CHON-JI BASEL</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <script src="https://elfsightcdn.com/platform.js" async></script>
     </Head>
