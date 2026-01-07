@@ -6,7 +6,7 @@ export default $config({
   app(input: any) {
     return {
       name: 'chon-ji-website',
-      removal: input?.stage === 'production' ? 'retain' : 'remove',
+      removal: 'remove', // static website - no need to retain for production data
       home: 'aws',
     };
   },
@@ -18,11 +18,13 @@ export default $config({
         [envKeys.senderEmail]: config.senderEmail as string,
         [envKeys.senderEmailPassword]: config.senderEmailPassword as string,
       },
-      domain: config.domainName ? {
-        name: config.domainName as string,
-        dns: false,
-        cert: config.certArn as string,
-      } : undefined,
+      domain: config.domainName
+        ? {
+            name: config.domainName as string,
+            dns: false,
+            cert: config.certArn as string,
+          }
+        : undefined,
     });
 
     return {
