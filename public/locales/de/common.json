@@ -13,7 +13,7 @@
     "contact-us": "Kontakt"
   },
   "home": {
-    "title": "WILLKOMMEN in der ITF TAEKWON-DO SCHULE CHON-JI",
+    "title": "WILLKOMMEN in der TAEKWON-DO CHON-JI BASEL",
     "subtitle": "join over 9,000+ students",
     "description": "Taekwon-Do (TKD) ist eine koreanische Kampfkunst, die körperliche Fähigkeiten und Charakterbildung fördert. Neben Kampf- und Verteidigungstechniken stärkt es den Körper, verbessert Ausdauer, Schnelligkeit und Leistung. Es fördert die Entwicklung von Willenskraft, Selbstdisziplin und innerer Ruhe. Die fünf Prinzipien sind Höflichkeit, Integrität, Ausdauer, Selbstkontrolle und unbezwingbarer Wille. Seit 2023 bieten wir auch Kick-Boxing-Wettkämpfe als Teil unseres Programms an.",
     "subscribe": "Subscribe",
@@ -27,7 +27,7 @@
   "about": {
     "title": "Über uns",
     "subtitle": "LASS UNS MEHR ÜBER UNSERE TAEKWON-DO SCHULE ERFAHREN",
-    "description": "ITF Taekwon-Do Schule Chon-Ji wurde 2020 gegründet und ist Mitglied der I.T.F Switzerland Taekwon-Do Federation, von Sport Basel und seit 2023 der WAKO Switzerland. Der Gründer und Haupttrainer, Ervin Begic, begann mit zehn Jahren in Bosnien-Herzegowina mit dem Taekwon-Do Training. Er ist mehrfacher Goldmedaillengewinner bei bosnischen Meisterschaften, war Teil der Nationalmannschaft und erreichte den 3. Platz bei den Europameisterschaften 2011. Er hat auch an Weltmeisterschaften teilgenommen und war in Bosnien-Herzegowina Nationalmeister im Kick-Box, Light Contact. Er besitzt den Schwarzgurt 4. Dan.",
+    "description": "TAEKWON-DO CHON-JI BASEL wurde 2020 gegründet und ist Mitglied der I.T.F Switzerland Taekwon-Do Federation, von Sport Basel und seit 2023 der WAKO Switzerland. Der Gründer und Haupttrainer, Ervin Begic, begann mit zehn Jahren in Bosnien-Herzegowina mit dem Taekwon-Do Training. Er ist mehrfacher Goldmedaillengewinner bei bosnischen Meisterschaften, war Teil der Nationalmannschaft und erreichte den 3. Platz bei den Europameisterschaften 2011. Er hat auch an Weltmeisterschaften teilgenommen und war in Bosnien-Herzegowina Nationalmeister im Kick-Box, Light Contact. Er besitzt den Schwarzgurt 4. Dan.",
     "find-out-more": "Mehr erfahren",
     "have-any-questions": "Fragen?",
     "number": "+41 76 675 73 75"
@@ -77,7 +77,7 @@
     "msg": "Gib deine Nachricht ein.....",
     "get-in-touch": "Nimm Kontakt auf",
     "contact-heading": "Deine Nachricht wurde empfangen",
-    "contact-body": "Hallo {{name}}, <br/> Danke, dass du unsere Taekwondo-Schule kontaktiert hast. Wir haben deine Nachricht erhalten und freuen uns über dein Interesse an unserem Programm. Wir werden dir so schnell wie möglich antworten, entweder per E-Mail oder Telefon. <br/> Solltest du in der Zwischenzeit weitere Fragen haben oder weitere Informationen benötigen, zögere bitte nicht, uns per E-Mail oder Telefon/Whatsapp zu kontaktieren. <br/> <br/> Viele Grüsse, <br/> Chon-Ji ITF Taekwon-Do. <br/> <br/> <br/> Deine Nachricht: <br/> Name: {{name}} <br/> E-mail: {{email}} <br/> Telefon: {{phone}} <br/> Nachricht: {{message}} ",
+    "contact-body": "Hallo {{name}}, <br/> Danke, dass du unsere Taekwondo-Schule kontaktiert hast. Wir haben deine Nachricht erhalten und freuen uns über dein Interesse an unserem Programm. Wir werden dir so schnell wie möglich antworten, entweder per E-Mail oder Telefon. <br/> Solltest du in der Zwischenzeit weitere Fragen haben oder weitere Informationen benötigen, zögere bitte nicht, uns per E-Mail oder Telefon/Whatsapp zu kontaktieren. <br/> <br/> Viele Grüsse, <br/> TAEKWON-DO CHON-JI BASEL. <br/> <br/> <br/> Deine Nachricht: <br/> Name: {{name}} <br/> E-mail: {{email}} <br/> Telefon: {{phone}} <br/> Nachricht: {{message}} ",
     "email-success": "Danke für deine Nachricht. Wir haben sie erfolgreich erhalten und dir eine Bestätigung per E-Mail geschickt. Du hörst bald von uns!",
     "email-fail": "Leider gab's ein Problem beim Senden deiner Nachricht. Versuch es bitte nochmal. Falls das Problem weiterhin besteht, zögere nicht, uns direkt über die unten angegebenen E-Mail- oder Telefonkontakte zu erreichen."
   },

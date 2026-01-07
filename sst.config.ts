@@ -1,40 +1,34 @@
-import { Certificate } from 'aws-cdk-lib/aws-certificatemanager';
-import { SSTConfig } from 'sst';
-import { NextjsSite } from 'sst/constructs';
-import config, { envKeys } from 'deployment.config';
+/// <reference path="./.sst/platform/config.d.ts" />
 
-export default {
-  config(_input) {
+import config, { envKeys } from './deployment.config';
+
+export default $config({
+  app(input: any) {
     return {
       name: 'chon-ji-website',
-      region: 'us-east-1',
+      removal: 'remove', // static website - no need to retain for production data
+      home: 'aws',
     };
   },
-  stacks(app) {
-    app.stack(function Site({ stack }) {
-      const site = new NextjsSite(stack, 'site', {
-        environment: {
-          [envKeys.destinationEmail]: config.destinationEmail as string,
-          [envKeys.fromEmail]: config.fromEmail as string,
-          [envKeys.senderEmail]: config.senderEmail as string,
-          [envKeys.senderEmailPassword]: config.senderEmailPassword as string,
-        },
-        customDomain: {
-          domainName: config.domainName as string,
-          isExternalDomain: true,
-          cdk: {
-            certificate: Certificate.fromCertificateArn(
-              stack,
-              'site-cert',
-              config.certArn as string
-            ),
-          },
-        },
-      });
-
-      stack.addOutputs({
-        SiteUrl: site.url,
-      });
+  async run() {
+    const site = new sst.aws.Nextjs('Site', {
+      environment: {
+        [envKeys.destinationEmail]: config.destinationEmail as string,
+        [envKeys.fromEmail]: config.fromEmail as string,
+        [envKeys.senderEmail]: config.senderEmail as string,
+        [envKeys.senderEmailPassword]: config.senderEmailPassword as string,
+      },
+      domain: config.domainName
+        ? {
+            name: config.domainName as string,
+            dns: false,
+            cert: config.certArn as string,
+          }
+        : undefined,
     });
+
+    return {
+      url: site.url,
+    };
   },
-} satisfies SSTConfig;
+});
