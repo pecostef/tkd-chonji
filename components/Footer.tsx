@@ -14,6 +14,13 @@ export function Footer() {
               <img src="images/wako-logo.jpeg" alt="" />
               <img src="images/kick-boxing-logo.jpeg" alt="" />
               <img src="images/sport-basel-logo.png" alt="" />
+              <a
+                href="https://gemeinde-schweiz.ch/kanton-basel-stadt/basel/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="images/gemeinde-schweiz-logo.png" alt="Gemeinde Schweiz - Basel" />
+              </a>
             </div>
             <p>{t('footer.description')}</p>
             <div className="social">
